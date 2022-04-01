@@ -12,8 +12,8 @@ It will be important to communicate accurate information to people about exactly
 
 ### Links
 
-- [Developing Repo](https://github.com/jieunn01/Baek_Bian_Issakhanova_FIP.git "<project-name> Repo")
-- [Final version Repo](https://github.com/Jane-Goza/MSF.git "<project-name> Repo")
+- [Developing Repo](https://github.com/jieunn01/Baek_Issakhanova_FIP.git "<project-name> Repo")
+- [Final version Repo](https://github.com/Jane-Goza/Baek_Issakhanova_MSF.git "<project-name> Repo")
 
 ### Available Commands
 
