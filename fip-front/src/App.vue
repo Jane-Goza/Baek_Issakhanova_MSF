@@ -4,8 +4,7 @@
     <router-link to="/Campaign">#weTogether</router-link>
     <router-link to="/Contact">Contacts</router-link>
   </div>
-  <router-view></router-view>
-  <Footer />
+  <router-view/>
 </template>
 
 <style>

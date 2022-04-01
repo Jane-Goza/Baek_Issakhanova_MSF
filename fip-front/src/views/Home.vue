@@ -168,7 +168,7 @@
                     <p>PATIENTS ADMITTED</p>
                 </div>
             </div>
-            <button>DONATE</button>
+            <button class="contactBtn" type="button">DONATE</button>
     </div>
 
     <div class="banner" :style="banner">
