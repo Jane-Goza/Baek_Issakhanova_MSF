@@ -11,6 +11,7 @@
     background-size: 100%;
     margin-bottom: 20px;
 }
+
 .campaign_text {
     display: flex;
     flex-direction: column;
@@ -43,6 +44,32 @@
 
 .partners img {
     width: 20%;
+}
+
+.media {
+    display: flex;
+    flex-direction: column;
+}
+
+.media_posts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.media img {
+    width: 45%;
+    padding-bottom: 40px;
+}
+
+.media_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.media_2 img{
+    width: 45%;
 }
 
 .box {
@@ -104,7 +131,45 @@
     .campaign_info {
         display: flex;
         flex-direction: row-reverse;
+        padding-top: 40px;
       }
+
+    .campaign_text {
+        align-items: center;
+        padding-top: 180px;
+        padding-bottom: 180px;
+    }
+
+    .participate {
+        padding-top: 40px;
+    }
+    
+    .media {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+
+    .media_posts {
+        justify-content: center;
+    }
+
+    .media img {
+        width: 40%;
+        margin-left: auto;
+    }
+
+    .media_2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .media_2 img{
+        width: 20%;
+        margin: auto;
+    }
 
     .box {
         flex-direction: row;
@@ -121,5 +186,9 @@
 
     .monthly_plan {
         margin-right: 60px;
+    }
+
+    .campaign_desc {
+        padding-left: 40px;
     }
 }

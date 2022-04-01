@@ -9,7 +9,7 @@
     </div>
 
     <div class="campaign_info">
-        <div>
+        <div class="campaign_desc">
         <h3>WHAT IS THIS CAMPAIGN?</h3>
         <p>The inspiration of this campaign and surprise boxses design was produced
              from the interviews and photos from actual volunteers working place.
@@ -30,7 +30,7 @@
         </div>
     </div>
 
-    <div>
+    <div class="participate">
         <h3>HOW CAN I PARTICIPATE THIS</h3>
         <div class="activity">
             <h4>ACTIVITY 1</h4>
@@ -79,16 +79,16 @@
                    $1.00 will be automatically donated per post. Free to share with
                     your friends.</p>
             </div>
-            <div class="slider">
-                <div class="item">
+              <div class="media">
+                <div class="media_posts">
                    <img src="@/assets/images/insta_profile.jpg" alt="insta profile">
                    <img src="@/assets/images/insta_art_gallery1.jpg" alt="art gallery insta">
-                 </div>
-                 <div class="item">
+                </div>
+                <div class="media_posts">
                    <img src="@/assets/images/Facebook.jpg" alt="Facebook">
                    <img src="@/assets/images/instagram-boxes.jpg" alt="Facebook">
-                 </div>
-            </div>
+                </div>
+              </div>
 
             <div class="step">
                 <h4>STEP 4</h4>
@@ -97,14 +97,11 @@
                     you automatically become a donator. Proceeds from the sale of surprise
                      boxes will go to help COVID victims.</p>
             </div>
-            <div class="slider">
-                <div class="item">
+
+            <div class="media_2">
                    <img src="@/assets/images/insta_profile.jpg" alt="insta profile">
-                 </div>
-                 <div class="item">
                    <img src="@/assets/images/Facebook.jpg" alt="Facebook">
-                 </div>
-            </div>
+              </div>
         </div>
 
         <div class="activity">
@@ -136,12 +133,14 @@
                 used to help vulnerable people around the world in need.</p>
         </div>
 
-        <div class="campaign_video">
+        <div>
           <h4>PROMOTIONAL VIDEO</h4>
+          <div class="campaign_video">
           <video id="videoPromo" src="@/assets/images/fip_video.mp4" controls="controls">
           </video>
           <b>“We don’t need any borders to save lives. Use the easiest way to donate for
              needed people.”</b>
+        </div>
         </div>
     </div>
   </div>
