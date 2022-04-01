@@ -46,6 +46,17 @@
     width: 20%;
 }
 
+.posters {
+    display: flex;
+    justify-content:baseline;
+    flex-direction: column;
+}
+
+.posters img {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
 .media {
     display: flex;
     flex-direction: column;
@@ -144,6 +155,15 @@
         padding-top: 40px;
     }
     
+    .posters {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .posters img {
+        width: 48%;
+    }
     .media {
         display: flex;
         flex-direction: row;

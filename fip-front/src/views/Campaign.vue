@@ -40,21 +40,15 @@
                 <p>On your way to work or school, look around subway
                      station and bus stops carefully and find some MSF posters.</p>
             </div>
-            <div class="slider">
-                <div class="item">
+
+            <div class="posters">
                    <img src="@/assets/images/art_gallery1.jpg" alt="art gallery">
-                 </div>
-                 <div class="item">
-                   <img src="@/assets/images/art_gallery1.jpg" alt="art gallery">
-                 </div>
-                 <div class="item">
-                   <img src="@/assets/images/art_gallery1.jpg" alt="art gallery">
-                 </div>
-                 <div class="item">
-                   <img src="@/assets/images/art_gallery1.jpg" alt="art gallery">
-                 </div>
-                 <a class="previous" onclick="previousSlide()">&#10094;</a>
-                 <a class="next" onclick="nextSlide()">&#10095;</a>
+                   <img src="@/assets/images/banner_airplane.jpg" alt="banner">
+            </div>
+
+            <div class="posters">
+                   <img src="@/assets/images/urban_poster.jpg" alt="urban posters">
+                   <img src="@/assets/images/art_gallery.jpg" alt="art gallery">
             </div>
 
             <div class="step">
@@ -62,15 +56,9 @@
                 <p>Take a picture with a poster or scan a QR code on
                    the posters using your camera.</p>
             </div>
-            <div class="slider">
-                <div class="item">
+            <div class="posters">
                    <img src="@/assets/images/wall_posters.jpg" alt="wall posters">
-                 </div>
-                 <div class="item">
                    <img src="@/assets/images/qr.jpg" alt="QR">
-                 </div>
-                 <a class="previous" onclick="previousSlide()">&#10094;</a>
-                 <a class="next" onclick="nextSlide()">&#10095;</a>
             </div>
 
             <div class="step">
