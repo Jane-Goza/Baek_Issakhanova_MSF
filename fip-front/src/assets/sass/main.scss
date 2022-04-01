@@ -1,8 +1,9 @@
 @import './modules/header.scss';
 @import './modules/footer.scss';
+@import url("https://fonts.googleapis.com/css2?family=Vujahday+Script&display=swap");
 @import './modules/home.scss';
-@import './modules/slider.scss';
 @import './modules/campaign.scss';
+
 
 .hidden {
     display: none;
@@ -18,7 +19,7 @@ h1 {
 }
 
 h2 {
-    font-size: 12px; 
+    font-size: 12px;
 }
 
 h3 {
@@ -47,19 +48,19 @@ span {
     h1 {
         font-size: 38px;
     }
-    
+
     h2 {
-        font-size: 22px; 
+        font-size: 22px;
     }
-    
+
     h3 {
-        font-size: 26px; 
+        font-size: 26px;
     }
-    
+
     h4 {
         font-size: 26px;
     }
-    
+
     h5 {
         font-size: 24px;
     }
