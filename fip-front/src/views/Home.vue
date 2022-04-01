@@ -69,25 +69,16 @@
     </div>
 
     <div class="statistics">
-            <h3>CLEAR RESULTS with 2020</h3>
-            <div class="numbers">
-                <div class="numbers_content">
-                    <b>88</b>
-                    <p>COUTRIES</p>
-                </div>
-                <div class="numbers_content">
-                    <b>3,210,000</b>
-                    <p>COVID-19 TEST</p>
-                </div>
-                <div class="numbers_content">
-                    <b>302</b>
-                    <p>COVID-19 RESPONSE ACTIVITIES</p>
-                </div>
-                <div class="numbers_content">
-                    <b>112,000</b>
-                    <p>OUTPATIENT TREATMENT FOR SUSPECTED COVID-19 PATIENTS</p>
-                </div>
-            </div>
+            <CustomCounter
+            title="CLEAR RESULTS with 2020"
+            paragraph="You can view our clear data from the 2020 report. This data groups together direct, remote support and coordination activities. These highlights give an overview of most MSF activities but cannot be considered complete or exhaustive. "
+            :values="[
+            { value: 88.0000, text: 'COUNTRIES' },
+            { value: 3210000, text: 'COVID-19 TEST' },
+            { value: 302, text: 'COVID-19 RESPONSIVE ACTIVITIESS' },
+            { value: 112000, text: 'OUTPATIENT TREATMENT FOR SUSPECTED COVID-19 PATIENTS' },
+            ]"
+            />
 
             <div class="graphs">
                 <div class="incomes">
@@ -150,24 +141,16 @@
     </div>
 
     <div class="donation">
-            <h3>HOW YOUR DONATIONS ARE USED</h3>
-            <p>Your donations pay for millions of consultations, surgeries,
-                 treatments and vaccinations every year.</p>
-
-            <div class="numbers">
-                <div class="numbers_content">
-                    <b>9,904,200</b>
-                    <p>OUTPATIENT CONSULTATIONS</p>
-                </div>
-                <div class="numbers_content">
-                    <b>1,008,500</b>
-                    <p>VACCINATIONS AGAINST MEASLES IN RESPONSE TO AN OUTBREAK</p>
-                </div>
-                <div class="numbers_content">
-                    <b>877,300</b>
-                    <p>PATIENTS ADMITTED</p>
-                </div>
-            </div>
+            <CustomCounter
+                title="HOW YOUR DONATIONS ARE USED"
+                paragraph="Your donations pay for millions of consultations, surgeries,
+            treatments and vaccinations every year."
+                :values="[
+                { value: 9904200, text: 'OUTPATIENT CONSULTATIONS' },
+                { value: 1008500, text: 'VACCINATIONS AGAINST MEASLES IN RESPONSE TO AN OUTBREAK' },
+                { value: 877300, text: 'PATIENTS ADMITTED' },
+                ]"
+            />
             <button class="contactBtn" type="button">DONATE</button>
     </div>
 
@@ -195,12 +178,14 @@
 // @ is an alias to /src
 import Header from '@/components/Header.vue';
 import Footer from '@/components/Footer.vue';
+import CustomCounter from "../components/CustomCounter.vue";
 
 export default {
   name: 'Home',
   components: {
     Header,
     Footer,
+    CustomCounter,
   },
 
   data() {
